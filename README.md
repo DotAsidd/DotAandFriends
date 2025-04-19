@@ -15,22 +15,26 @@ GProxy is a proxy server/client application designed for Warcraft 3, providing e
 ## Project Structure
 
 ```
-GProxy/
-├── source/                 # Main source code directory
-│   ├── bnet/              # Battle.net related functionality
-│   ├── data/              # Data files
-│   ├── delegate/          # UI delegates
-│   ├── gmp/               # Game management protocol
-│   ├── images/            # Image resources
-│   ├── mysql/             # Database functionality
-│   ├── sounds/            # Sound resources
-│   ├── thread/            # Thread management
-│   ├── util/              # Utility functions
-│   └── widget/            # Custom widgets
-├── icons/                 # Application icons
-├── build/                 # Build output directory
-├── debug/                 # Debug build files
-└── release/               # Release build files
+├── GProxy/                 # Main application directory
+│   ├── source/            # Main source code directory
+│   │   ├── bnet/         # Battle.net related functionality
+│   │   ├── data/         # Data files
+│   │   ├── delegate/     # UI delegates
+│   │   ├── gmp/          # Game management protocol
+│   │   ├── images/       # Image resources
+│   │   ├── mysql/        # Database functionality
+│   │   ├── sounds/       # Sound resources
+│   │   ├── thread/       # Thread management
+│   │   ├── util/         # Utility functions
+│   │   └── widget/       # Custom widgets
+│   ├── icons/            # Application icons
+│   ├── build/            # Build output directory
+│   ├── debug/            # Debug build files
+│   └── release/          # Release build files
+└── BNCSUtil/             # Battle.net protocol utility library
+    ├── source/           # Source code files
+    ├── include/          # Header files
+    └── build/            # Build output directory
 ```
 
 ## Building the Project
